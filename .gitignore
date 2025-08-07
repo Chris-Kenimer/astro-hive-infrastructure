@@ -1,0 +1,41 @@
+# SSH Keys - Never commit private keys to git
+azure_runner_private_key
+azure_runner_private_key.pub
+*_private_key
+*_private_key.pub
+*.pem
+*.ppk
+
+# SSH Config files that might contain sensitive info
+ssh_config
+known_hosts
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.idea/
+*.swp
+*.swo
+*~
+
+# PowerShell transcripts
+PowerShell_transcript.*
+
+# Backup files
+*.bak
+*.backup
